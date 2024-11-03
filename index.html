@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoszkóp Generátor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Horoszkóp Generátor</h1>
+        <label for="horoscope">Válaszd ki a csillagjegyed:</label>
+        <select id="horoscope">
+            <option value="kos">Kos</option>
+            <option value="bika">Bika</option>
+            <option value="ikrek">Ikrek</option>
+            <option value="rák">Rák</option>
+            <option value="oroszlán">Oroszlán</option>
+            <option value="szűz">Szűz</option>
+            <option value="mérleg">Mérleg</option>
+            <option value="skorpió">Skorpió</option>
+            <option value="nyilas">Nyilas</option>
+            <option value="bak">Bak</option>
+            <option value="vízöntő">Vízöntő</option>
+            <option value="halak">Halak</option>
+        </select>
+        <button onclick="generateHoroscope()">Horoszkóp Mutatása</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p#result {
+    margin-top: 20px;
+    font-size: 22px; /* Nagyobb betűméret */
+    color: #333; /* Sötétebb szín */
+    background-color: #f9f9f9; /* Világos háttérszín */
+    padding: 20px; /* Belülről párnázás */
+    border-radius: 8px; /* Lekerekített sarkak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Árnyék */
+}
